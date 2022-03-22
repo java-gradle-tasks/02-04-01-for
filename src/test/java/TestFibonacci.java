@@ -8,7 +8,7 @@ public class TestFibonacci {
       int n = -1;
       int expected = 0;
       int actaul = MyLoop.fibonacci(n);
-      Assertions.assertEquals(expected, actaul, "fib("+n+") értékét rosszul hatorzta meg!");
+      Assertions.assertEquals(expected, actaul, "fib("+n+") erteket rosszul hatorzta meg!");
    }
 
    @Test
