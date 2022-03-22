@@ -3,7 +3,7 @@ public class MyLoop {
 	public static int faktorial(int n) {
 		// Határozza meg n! értékét. Negatív szám esetén a foktorliális értéke legyen -1.
 		return 0;
-		}
+
 	}
 
 	public static int fibonacci(int n) {
@@ -15,7 +15,7 @@ public class MyLoop {
 	{
 		// határozza meg két szám legnagyobb közös osztóját. Ha bármelyik szám egynél kisebb, térjen vissza -1-el.
 		return 0;
-		}
+
 	}
 
 	public static int meghatarozOsztokOsszege(int n) {
@@ -26,9 +26,9 @@ public class MyLoop {
 
 	public static boolean tokeletesE(int n) {
 		// A számelméletben tökéletes számnak nevezzük azokat a természetes számokat, amelyek megegyeznek az önmaguknál kisebb osztóik összegével.
-		// Állapítsa meg, hogy a szám tökéltes-e! Egynél kisebb számok esetén térjen vissza false értékkel
-		return 0;
-		}
+		// Határozza meg, hogy a szám tökéltes-e! Egynél kisebb számok esetén térjen vissza false értékkel
+		return false;
+    }
 
 	public static void main(final String[] args) {
 		//System.out.println("Fakt: "+faktorial(2));
